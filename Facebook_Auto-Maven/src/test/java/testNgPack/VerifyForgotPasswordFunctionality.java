@@ -131,7 +131,7 @@ public class VerifyForgotPasswordFunctionality extends Base{
 		forgotPassword.clickOnSearchButton();
 		Thread.sleep(2000);
 		String actualHeaderMsg = forgotPassword.getHeaderMsg();
-		String expectedHeaderMsg = "Log in to Facebook";
+		String expectedHeaderMsg = "Reset Your Password";
 
 		Assert.assertEquals(actualHeaderMsg, expectedHeaderMsg);
 		

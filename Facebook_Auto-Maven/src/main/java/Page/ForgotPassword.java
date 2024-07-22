@@ -32,7 +32,7 @@ public class ForgotPassword {
 	@FindBy (xpath = "//form[@id='identify_yourself_flow']/div/div[2]//div[1]//div[2]")
 	private WebElement errorMsg ;
 	
-	@FindBy (xpath = "//div[@id='header_block']//div")
+	@FindBy (xpath = "//h2[@class='uiHeaderTitle']")
 //	@FindBy (xpath = "(//div[@id='initiate_interstitial']//h2)[2]")
 	private WebElement headerMsg ;
 	
